@@ -1,0 +1,33 @@
+{
+  "name": "console.yahtzee",
+  "version": "1.0.0",
+  "description": "text-based Yahtzee dice game using Google Chrome / Mozilla Firefox console",
+  "scripts": {
+    "dev": "parcel src/index.html --open",
+    "build": "parcel build src/index.html --out-dir docs --public-url ./ --no-source-maps --detailed-report",
+    "test": "jest --watchAll"
+  },
+  "keywords": [
+    "yahtzee",
+    "yam's",
+    "console",
+    "chrome",
+    "firefox",
+    "text-based",
+    "game",
+    "javascript"
+  ],
+  "author": "wed",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^23.6.0",
+    "jest": "^23.6.0",
+    "parcel-bundler": "^1.11.0",
+    "regenerator-runtime": "^0.13.1"
+  },
+  "dependencies": {
+    "redux": "^4.0.1"
+  }
+}
